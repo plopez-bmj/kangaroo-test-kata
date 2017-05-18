@@ -1,6 +1,6 @@
-#kangaro-test-kata
+# kangaro-test-kata
 
-##The problem
+## The problem
 
 There are two kangaroos on an x-axis ready to jump in the positive direction (i.e, toward positive infinity). The first kangaroo starts at location x1 and moves at a rate of v1 meters per jump. The second kangaroo starts at location x2 and moves at a rate of v2 meters per jump. Given the starting locations and movement rates for each kangaroo, can you determine if they'll ever land at the same location at the same time?
 
@@ -52,10 +52,10 @@ NO
 
 The second kangaroo has a starting location that is ahead (further to the right) of the first kangaroo's starting location (i.e. x2 > x1 ). Because the second kangaroo moves at a faster rate (meaning v2 > v1) and is already ahead of the first kangaroo, the first kangaroo will never be able to catch up. Thus, we print NO.
 
-##Exercise 1
+## Exercise 1
 
 Solve the problem using TDD.
 
-##Exercise 2
+## Exercise 2
 
 How would you change your tests and your code to return the number of jumps when the kangaroos meet?
